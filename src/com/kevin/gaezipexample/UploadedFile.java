@@ -1,4 +1,4 @@
-package com.kevin;
+package com.kevin.gaezipexample;
 
 import java.io.Serializable;
 import java.util.Collection;

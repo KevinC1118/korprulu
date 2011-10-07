@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Webcam Example</title>
+<script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="jquery.webcam.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#camera").webcam({
+			width : 320,
+			height : 240,
+			mode : "callback",
+			swffile : "jscam.swf",
+			onTick : function() {
+			},
+			onSave : function() {
+			},
+			onCapture : function() {
+			},
+			debug : function() {
+			},
+			onLoad : function() {
+				var cams = webcam.getCameraList();
+				for ( var i in cams) {
+					jQuery("#cams").append("<li>" + cams[i] + "</li>");
+				}
+			}
+		});
+
+	});
+</script>
+</head>
+<body>
+	<div id="camera"></div>
+	<div><ol id="cams"></ol></div>
+</body>
+</html>

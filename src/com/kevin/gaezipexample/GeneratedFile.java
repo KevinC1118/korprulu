@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.kevin;
+package com.kevin.gaezipexample;
 
 import com.google.appengine.api.datastore.Blob;
 

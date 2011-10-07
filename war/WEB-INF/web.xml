@@ -6,11 +6,11 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet>
 		<servlet-name>Upload</servlet-name>
-		<servlet-class>com.kevin.UploadServlet</servlet-class>
+		<servlet-class>com.kevin.gaezipexample.UploadServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Upload</servlet-name>
-		<url-pattern>/upload</url-pattern>
+		<url-pattern>/GAEZipExample/upload</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>

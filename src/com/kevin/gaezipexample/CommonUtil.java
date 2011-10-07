@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.kevin;
+package com.kevin.gaezipexample;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
